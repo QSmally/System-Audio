@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D47671B62CB0209100154520 /* System_AudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47671B52CB0209100154520 /* System_AudioApp.swift */; };
+		D47671B62CB0209100154520 /* SystemAudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47671B52CB0209100154520 /* SystemAudioApp.swift */; };
 		D47671B82CB0209100154520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47671B72CB0209100154520 /* ContentView.swift */; };
 		D47671BA2CB0209200154520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47671B92CB0209200154520 /* Assets.xcassets */; };
 		D47671BD2CB0209200154520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47671BC2CB0209200154520 /* Preview Assets.xcassets */; };
+		D4E01A2D2CB0374000A76AD7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4E01A2C2CB0374000A76AD7 /* Info.plist */; };
+		D4E01A2F2CB037A300A76AD7 /* Main.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D4E01A2E2CB037A300A76AD7 /* Main.xcconfig */; };
+		D4E01A322CB0386F00A76AD7 /* AudioRecordingPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A312CB0386F00A76AD7 /* AudioRecordingPermission.swift */; };
+		D4E01A342CB038CD00A76AD7 /* AudioProcessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A332CB038CD00A76AD7 /* AudioProcessController.swift */; };
+		D4E01A362CB038E500A76AD7 /* ProcessTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A352CB038E500A76AD7 /* ProcessTap.swift */; };
+		D4E01A382CB038FF00A76AD7 /* CoreAudioUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A372CB038FF00A76AD7 /* CoreAudioUtility.swift */; };
+		D4E01A3B2CB039BB00A76AD7 /* RecordingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A3A2CB039BB00A76AD7 /* RecordingIndicator.swift */; };
+		D4E01A3D2CB039F200A76AD7 /* FileProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A3C2CB039F200A76AD7 /* FileProxyView.swift */; };
+		D4E01A3F2CB03A2F00A76AD7 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A3E2CB03A2F00A76AD7 /* RecordingView.swift */; };
+		D4E01A412CB03A4800A76AD7 /* ProcessSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A402CB03A4800A76AD7 /* ProcessSelectionView.swift */; };
+		D4E01A432CB0473E00A76AD7 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E01A422CB0473E00A76AD7 /* AppCommands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D47671B22CB0209100154520 /* System-Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System-Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D47671B52CB0209100154520 /* System_AudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System_AudioApp.swift; sourceTree = "<group>"; };
+		D47671B52CB0209100154520 /* SystemAudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAudioApp.swift; sourceTree = "<group>"; };
 		D47671B72CB0209100154520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D47671B92CB0209200154520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47671BC2CB0209200154520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D47671BE2CB0209200154520 /* System_Audio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = System_Audio.entitlements; sourceTree = "<group>"; };
+		D4E01A2C2CB0374000A76AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E01A2E2CB037A300A76AD7 /* Main.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Main.xcconfig; sourceTree = "<group>"; };
+		D4E01A312CB0386F00A76AD7 /* AudioRecordingPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingPermission.swift; sourceTree = "<group>"; };
+		D4E01A332CB038CD00A76AD7 /* AudioProcessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioProcessController.swift; sourceTree = "<group>"; };
+		D4E01A352CB038E500A76AD7 /* ProcessTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessTap.swift; sourceTree = "<group>"; };
+		D4E01A372CB038FF00A76AD7 /* CoreAudioUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioUtility.swift; sourceTree = "<group>"; };
+		D4E01A3A2CB039BB00A76AD7 /* RecordingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingIndicator.swift; sourceTree = "<group>"; };
+		D4E01A3C2CB039F200A76AD7 /* FileProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProxyView.swift; sourceTree = "<group>"; };
+		D4E01A3E2CB03A2F00A76AD7 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		D4E01A402CB03A4800A76AD7 /* ProcessSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessSelectionView.swift; sourceTree = "<group>"; };
+		D4E01A422CB0473E00A76AD7 /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +74,17 @@
 		D47671B42CB0209100154520 /* System-Audio */ = {
 			isa = PBXGroup;
 			children = (
-				D47671B52CB0209100154520 /* System_AudioApp.swift */,
+				D4E01A392CB0398900A76AD7 /* User Interface */,
+				D4E01A302CB0385E00A76AD7 /* Process Tap */,
+				D47671B52CB0209100154520 /* SystemAudioApp.swift */,
 				D47671B72CB0209100154520 /* ContentView.swift */,
+				D4E01A402CB03A4800A76AD7 /* ProcessSelectionView.swift */,
+				D4E01A3E2CB03A2F00A76AD7 /* RecordingView.swift */,
+				D4E01A422CB0473E00A76AD7 /* AppCommands.swift */,
 				D47671B92CB0209200154520 /* Assets.xcassets */,
 				D47671BE2CB0209200154520 /* System_Audio.entitlements */,
+				D4E01A2C2CB0374000A76AD7 /* Info.plist */,
+				D4E01A2E2CB037A300A76AD7 /* Main.xcconfig */,
 				D47671BB2CB0209200154520 /* Preview Content */,
 			);
 			path = "System-Audio";
@@ -67,6 +96,26 @@
 				D47671BC2CB0209200154520 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4E01A302CB0385E00A76AD7 /* Process Tap */ = {
+			isa = PBXGroup;
+			children = (
+				D4E01A312CB0386F00A76AD7 /* AudioRecordingPermission.swift */,
+				D4E01A332CB038CD00A76AD7 /* AudioProcessController.swift */,
+				D4E01A352CB038E500A76AD7 /* ProcessTap.swift */,
+				D4E01A372CB038FF00A76AD7 /* CoreAudioUtility.swift */,
+			);
+			path = "Process Tap";
+			sourceTree = "<group>";
+		};
+		D4E01A392CB0398900A76AD7 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D4E01A3A2CB039BB00A76AD7 /* RecordingIndicator.swift */,
+				D4E01A3C2CB039F200A76AD7 /* FileProxyView.swift */,
+			);
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D47671BD2CB0209200154520 /* Preview Assets.xcassets in Resources */,
+				D4E01A2F2CB037A300A76AD7 /* Main.xcconfig in Resources */,
 				D47671BA2CB0209200154520 /* Assets.xcassets in Resources */,
+				D4E01A2D2CB0374000A76AD7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E01A382CB038FF00A76AD7 /* CoreAudioUtility.swift in Sources */,
+				D4E01A342CB038CD00A76AD7 /* AudioProcessController.swift in Sources */,
+				D4E01A322CB0386F00A76AD7 /* AudioRecordingPermission.swift in Sources */,
+				D4E01A3D2CB039F200A76AD7 /* FileProxyView.swift in Sources */,
+				D4E01A432CB0473E00A76AD7 /* AppCommands.swift in Sources */,
+				D4E01A362CB038E500A76AD7 /* ProcessTap.swift in Sources */,
+				D4E01A3F2CB03A2F00A76AD7 /* RecordingView.swift in Sources */,
+				D4E01A3B2CB039BB00A76AD7 /* RecordingIndicator.swift in Sources */,
 				D47671B82CB0209100154520 /* ContentView.swift in Sources */,
-				D47671B62CB0209100154520 /* System_AudioApp.swift in Sources */,
+				D47671B62CB0209100154520 /* SystemAudioApp.swift in Sources */,
+				D4E01A412CB03A4800A76AD7 /* ProcessSelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +209,7 @@
 /* Begin XCBuildConfiguration section */
 		D47671BF2CB0209200154520 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E01A2E2CB037A300A76AD7 /* Main.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -199,6 +260,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "System-Audio/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -212,6 +275,7 @@
 		};
 		D47671C02CB0209200154520 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E01A2E2CB037A300A76AD7 /* Main.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -256,6 +320,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "System-Audio/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -279,11 +345,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.qsmally.System-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,11 +374,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.qsmally.System-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";

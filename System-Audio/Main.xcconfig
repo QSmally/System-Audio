@@ -1,0 +1,5 @@
+
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.utilities
+
+// Private API usage can be disabled by removing the "-D ENABLE_TCC_SPI" flag below.
+OTHER_SWIFT_FLAGS = $(inherited) -D ENABLE_TCC_SPI
