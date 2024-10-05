@@ -74,7 +74,7 @@ struct ProcessSelectionView: View {
         .task { processController.activate() }
         .onChange(of: processSelected) { oldValue, newValue in
             guard newValue != oldValue else { return }
-            
+
             if let newValue {
                 setupRecording(for: newValue)
             } else if oldValue == tap?.process {
