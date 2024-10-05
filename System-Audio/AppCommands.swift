@@ -12,8 +12,15 @@ struct AppCommands: Commands {
         }
 
         CommandMenu("Recordings") {
-            Button("Foo") {
-                print("bar")
+            Button("See previous recordings") {
+                NSWorkspace.shared.open(URL.applicationSupport)
+            }
+
+            Button("Clear previous recordings") {
+                let files = try? FileManager.default.contentsOfDirectory(at: URL.applicationSupport, includingPropertiesForKeys: nil)
+                for file in files ?? [] {
+                    try? FileManager.default.trashItem(at: file, resultingItemURL: nil)
+                }
             }
         }
     }
